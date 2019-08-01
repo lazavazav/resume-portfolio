@@ -142,6 +142,11 @@ body {
   display: none;
 }
 
+.captcha {
+  width: 280px;
+  margin: 10px;
+}
+
  
 /* container for floating bubbles that overlay in box a */
 #background-wrap {
