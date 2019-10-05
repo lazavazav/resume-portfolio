@@ -1,6 +1,6 @@
   const Msg1 = document.querySelector(".z6");
-    const Msg2 = document.querySelector(".z7");
-    const Msg3 = document.querySelector(".z8");
+  const Msg2 = document.querySelector(".z7");
+  const Msg3 = document.querySelector(".z8");
   const GoBack = document.querySelector(".successBtn");
 
   setTimeout(function(){

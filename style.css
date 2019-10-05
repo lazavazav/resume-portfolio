@@ -71,7 +71,8 @@ body {
   flex-wrap: wrap;
   grid-column: 1 / -1;
   grid-row: 3;  
-  margin: 30px;
+  margin: 30px 200px;
+  padding: 10px;
   }
 
 .e {
