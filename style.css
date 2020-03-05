@@ -42,6 +42,13 @@ body {
   color: #174545;
 }
 
+.code:hover {
+  font-family: Trebuchet MS;
+  color: #A5BAB6;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .a {
   grid-column: 1 / 4;
   grid-row: 1;
