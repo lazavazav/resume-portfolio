@@ -42,13 +42,6 @@ body {
   color: #174545;
 }
 
-.code:hover {
-  font-family: Trebuchet MS;
-  color: #A5BAB6;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
 .a {
   grid-column: 1 / 4;
   grid-row: 1;
@@ -127,15 +120,6 @@ body {
   border: 3px solid #008B8B;
 }
 
-.card {
-  background-color: #004C4C;
-  border: 3px solid #008B8B;
-}
-.card-body {
-  height: 200px;
-  width: 250px;
-}
-
 .card-title {
   margin-top: -80px;
   margin-left: 100px;
@@ -143,7 +127,20 @@ body {
 
 .card-text {
   margin-top: 30px;
-  color: rgb(85, 84, 84);
+  color:#ccc;
+}
+
+.code {
+  margin-left: 30px;
+  font-family: Trebuchet MS;
+  color: #f9584d;
+}
+
+.code:hover {
+  font-family: Trebuchet MS;
+  color: #A5BAB6;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .hidden {
@@ -687,7 +684,7 @@ button:active {
 }
 
 .card-body {
-  height: 300px;
+  height: 200px;
   width: 200px;
   margin-top: 40px;
   
@@ -701,6 +698,11 @@ button:active {
 .card-text {
   margin-top: -10px;
 }
+
+.code {
+  margin-left: 0px;
+}
+
  }
 
 
