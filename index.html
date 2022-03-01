@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -80,7 +80,7 @@
         <div class="row no-gutters">
           <div class="col-md-4">
             <a href="https://practical-meninsky-881e91.netlify.app/"><img src="images/todo.PNG" class="card-img"
-                alt="Calculator" style="border-radius: 50%; height: 150px; width: 150px"></a>
+                alt="To Do App" style="border-radius: 50%; height: 150px; width: 150px"></a>
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -274,8 +274,8 @@
         </g>
       </svg>
 
-      <!-- popping bubbles in box h -->
-      <div id="popwrap">
+       popping bubbles in box h -->
+      <!-- <div id="popwrap">
         <div class="pop z1"></div>
         <div class="pop z2"></div>
         <div class="pop z3"></div>
@@ -283,10 +283,10 @@
         <div class="pop z5"></div>
       </div>
 
-    </div>
+    </div> -->
 
     <!-- floating bubbles in box a -->
-    <div id="background-wrap">
+    <!-- <div id="background-wrap">
       <div class="bubble x1"></div>
       <div class="bubble x2"></div>
       <div class="bubble x3"></div>
@@ -314,4 +314,220 @@
 
 </body>
 
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+
+    <div class="box a"> 
+      <nav>
+        <div class="nav-wrapper">
+        <a href="#" class="brand-logo grey-text text-lighten-2" id="name" style=margin-left:5px;>Leslie Zavarella</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about" class="grey-text text-lighten-2">About</a></li>
+          <li><a href="#samples" class="grey-text text-lighten-2">Samples</a></li>
+          <li><a href="#experience" class="grey-text text-lighten-2">Experience</a></li>
+          <li><a href="#contact" class="grey-text text-lighten-2">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="#about" class="sidenav-close">About</a></li>
+      <li><a href="#samples" class="sidenav-close">Samples</a></li>
+      <li><a href="#experience" class="sidenav-close">Experience</a></li>
+      <li><a href="#contact" class="sidenav-close">Contact</a></li>
+    </ul>
+
+  </div>
+
+    <div class="box b">
+      <div id="about">
+        <img src="images/Leslie.jpeg" alt="profile" width="220" height="220"> <h4>Full Stack Developer</h4>
+         <p>I am a web developer currently using Javascript, Chart js and D3.js to create <span
+          style="color: purple; font-weight: bold; "> data
+        visualizations </span> for our clients. I have taught coding courses in person and online with bootcamps, school
+        districts and online platforms. I develop applications focusing on <span
+          style="color: purple; font-weight: bold; ">Javascript, React and Responsive Design.</span> My career began in education and transitioned to web development in 2013. I have a Master's Degree in
+        Education and extensive, additional coursework in Computer Science and Web Development. Below are links to
+        examples of my work and projects for clients. My teaching and artistic experience, project management skills and
+        expertise in current programming languages enable me to bring leadership, best practices and inspiration to your
+        team.<br><span style="color: purple; font-weight: bold; "> Thank you for visiting my portfolio page.</span></p>
+      </div>
+    </div>
+
+    <div class="box c">
+      <svg viewBox="0 0 100 300">
+        <polygon points = "100 0, 0 150, 100 300" style="fill:lime;stroke:purple;stroke-width:2"/>
+        <polygon points = "200 0, 0 110, 100 300" style="fill:orange;stroke:purple;stroke-width:2"/>
+        <polygon points = "300 0, 0 110, 100 300" style="fill:rgb(97, 95, 90);stroke:purple;stroke-width:2"/>
+      </svg>
+    </div>
+
+    <div class="box d" id="samples">
+
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/jamstack.jpeg" height="200px">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Jamstack App<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://hardcore-mayer-7938e9.netlify.app">Visit Site</a></p>
+        </div>
+        <div class="card-reveal orange accent-2">
+          <span class="card-title grey-text text-darken-4">About My Code<i class="material-icons right">close</i></span>
+          <p>This sample application uses Netlify Functions and a Fauna Database to create the CRUD Api and Netlify Identity for the signup/login capability.</p>
+          <h6><a href="https://github.com/lazavazav/users" class="codeLink">View The Code</a></h6>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/todo.PNG" height="200px">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">React ToDo App<i class="material-icons right">more_vert</i></span>
+          <p><a href="https://practical-meninsky-881e91.netlify.app/">Visit Site</a></p>
+        </div>
+        <div class="card-reveal purple accent-1">
+          <span class="card-title grey-text text-darken-4">About My Code<i class="material-icons right">close</i></span>
+          <p>This app has functionality to add, delete and edit user input and persist user data
+                to local storage. It is hosted on Netlify.</p>
+          <h6><a href="https://github.com/lazavazav/to-do" class="codeLink">View The Code</a></h6>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="images/charts.jpeg" height="200px">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Data Visualization<i class="material-icons right">more_vert</i></span>
+          <p><a href="#">Visit Site</a></p>
+        </div>
+        <div class="card-reveal lime accent-2">
+          <span class="card-title grey-text text-darken-4">About My Code<i class="material-icons right">close</i></span>
+          <p>This client needed a dashboard site for data visualization. I used Bootstrap 5, Chart.js, D3.js, and reusable class components.</p>
+          <h6><a href="#" class="codeLink">View The Code</a></h6>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="box e" id="experience">
+     
+<ul>
+  <li class="list">
+    <i class="material-icons orange-text text-darken-4">star_border</i><h6 class="date">2021-Present</h6>: Web Developer with XLN Systems
+  </li>
+  <li class="list">
+    <i class="material-icons orange-text text-darken-4">star_border</i><h6 class="date">2019-2020</h6>: Web Developer with Zappfy LLC
+  </li>
+  <li class="list">
+    <i class="material-icons orange-text text-darken-4">star_border</i><h6 class="date">2018-2021</h6>: Coding Teacher
+  </li>
+  <li class="list">
+    <i class="material-icons orange-text text-darken-4">star_border</i><h6 class="date">2016-2020</h6>: Freelance Web Developer
+  </li>
+  <li class="list">
+    <i class="material-icons orange-text text-darken-4">star_border</i><h6 class="date">2013-2016</h6>: Built and managed an ecommerce site similar to Etsy using the Wordpress CMS in a multisite environment.
+  </li>
+  <li class="list">
+    <i class="material-icons purple-text text-darken-4" id="educ" href="coursesModal">star</i><h6 class="date">Click Icon to View Education</h6>
+  </li> 
+</ul>
+
+<div class="modal" id="coursesModal">
+  <div class="course-content">
+    <span id="closeBtn">&times;</span>
+    <ul class="courseList"><h5>Completed Course Work</h5>
+      <li class="courses">Javascript Algorithms and Data Structures</li>
+            <li class="courses">Advanced Responsive Web Design</li>
+            <li class="courses">CSS Grid and Flexbox for Responsive Design</li>
+            <li class="courses">Design for Developers</li>
+            <li class="courses">Modern Javascript</li>
+            <li class="courses">CSS in-Depth</li>
+            <li class="courses">Intro to React</li>
+            <li class="courses">Full Stack for Front-Ends Part 1 and 2</li>
+            <li class="courses">The Complete Node JS Course</li>
+            <li class="courses">Frontend Master's Course on JavaScript Programming</li>
+            <li class="courses">Frontend Master's Complete Intro to Web Development</li>
+            <li class="courses">Interactivity with Javascript</li>
+            <li class="courses">Frontend Master's Course on Visual Studio Code</li>
+            <li class="courses">Javascript, JQuery and Json</li>
+            <li class="courses">Frontend Foundations</li>
+            <li class="courses">Computing in Python: fundamentals and procedural programming</li>
+            <li class="courses">Building Web Applications in PHP</li>
+            <li class="courses">A Smarter Way to learn Javascript</li>
+    </ul>
+  </div>
+</div>
+
+    <div class="box f" id="contact">
+      <div class="row">
+        <h4>Contact Me</h4>   
+        <form class="col s12" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/success.html">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" type="text">
+              <label for="first_name" style=color:black;>First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text">
+              <label for="last_name" style=color:black;>Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email">
+              <label for="email" style=color:black;>Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">create</i>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <label for="icon_prefix2" style=color:black;>Message</label>
+            </div>
+            <div data-netlify-recaptcha="true" class="captcha"></div>
+            <button class="btn-small" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+          </div>  
+        </form>
+      </div>
+    </div>
+
+    <div class="box g">
+    
+      <div class="github"><a href="https://github.com/lazavazav">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1891105/GitHub-Mark-64px.png" height="60px"
+            width="60px" alt="github icon"></a></div>
+
+      <div class="footinfo">
+        <h6>Leslie Zavarella</h6>
+        <p>Web Developer</p>
+      </div>
+
+      <div class="codepen"><a href="https://codepen.io/lazav"> <img src="/images/codepen.jpg" height="60px"
+            width="60px" alt="codepen icon">
+        </a></div>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="index.js"></script>
+</body>
 </html>
